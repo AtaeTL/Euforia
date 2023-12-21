@@ -1,0 +1,321 @@
+/*Global*/
+.heading-site {
+    text-align: center;
+    font-family: 'Montserrat' , sans-serif;
+}
+.heading-site-prec {
+text-align: center;
+font-family: 'Montserrat' , sans-serif;
+font-size: medium;
+color: darkgray;
+}
+/*Header*/
+.header{
+width : 100%;
+margin-left: 0;
+margin-right: 0;
+height: 70px;
+line-height: 70px;
+background-color: rgba(0,0,0,0);
+position: fixed;
+top: 0;
+z-index: 999;
+}
+.header .header-logo {
+    color : #ffffff ;
+    font-family: 'Montserrat' , sans-serif;
+    float: left;
+    margin-left: 30px;
+}
+.header .header-menu {
+    float: right;
+    margin-right: 30px;
+}
+.header .header-menu a {
+   margin-right: 15px;
+   color: #ffffff;
+}
+.header .header-menu a:hover {
+    color: #3498db;
+}
+/*Banner*/
+
+.banner {
+    margin-top: -24px;
+}
+ .banner .banner-image{
+     position: relative;
+     
+ }
+ .banner .banner-content{
+     position: absolute;
+     width: 100%;
+     text-align: center;
+     top : 30%;
+   
+ }
+ .banner .banner-content h1 ,
+ .banner .banner-content h2 {
+     color: #ffffff;
+
+ }
+ /*About*/
+ .about .about-single-element .icon {
+     font-size: 60px;
+     text-align: center;
+ }
+ .about .about-single-element  {
+    text-align: center;
+}
+.about .about-single-element p {
+    text-align: left;
+    margin-top: 20px;
+}
+.products .products-single-element img {
+    height : 200px ;
+    width : 300px;
+}
+.products2 .products2-single-element img {
+    height : 200px ;
+    width : 300px;
+}
+/*FOOTER*/
+.footer .footer-informations {
+    text-align: center;
+    margin-top: 30px;
+}
+.footer .footer-informations ul{
+    padding: 0;
+}
+.footer .footer-informations ul li {
+   display: inline-block;
+   list-style: none;
+}
+
+/*Modal*/
+.own-modal {
+    padding-top: 120px;
+}
+/* CONTACT */
+
+  .contact-section h1{
+    text-align: center;
+    color: #ddd;
+    
+  }
+  .border{
+    width: 100px;
+    height: 10px;
+    background: #ff3860 ;
+    margin: 40px auto;
+    margin-top: -5px;
+  }
+  
+  .contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 0 10px 4px #34495e;
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+ 
+  .contact-form-btn:hover{
+    background: #2980b9;
+  }
+  
+.banner2 {
+    margin-top: -24px;
+}
+ .banner2 .banner-image2{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+     
+ }
+ .banner2 .banner-content2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top : 14%;
+  
+}
+.banner2 .banner-content2 h1  {
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+}
+/* CONTACT*/
+
+/*A propos*/
+.banner .about2{
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    top : 50%;
+  
+}
+
+.banner .about2 h2 {
+    font-weight: bold;
+    color: white;
+    margin-left: 80px;
+    margin-top: -100px;
+    font-size: x-large;
+}
+.about2 .about-single-element .icon {
+    font-size: 60px;
+    text-align: center;
+    margin-left: 90px;
+}
+.about2 .about-single-element  {
+   text-align: center;
+}
+.about2 .about-single-element p {
+   text-align: left ;
+ 
+   margin-top: 20px;
+   margin-left: 140px;
+
+}
+
+/*A propos*/
+
+
+/*Footer1*/
+.footer1 {
+    background: #303036;
+    color: #d3d3d3;
+    height: 350px;
+    position: relative;
+}
+.footer1 .footer-content2 {
+    height: 150px;
+    display: flex;
+}
+.footer1 .footer-content2 .footer-section {
+    flex : 1;
+    padding : 25px;
+    height: 300px;
+
+}
+.footer1 .footer-content2 .about .contact2 span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.footer1 .footer-content2 .about .socials a {
+    text-align: center;
+    color: white;
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: 5px;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius : 5px;
+    transition: all 3.s;
+}
+.footer1 .footer-content2 .about .socials a:hover {
+    border: 1px solid white;
+    color: white;
+    transition: all 3.s;
+
+}
+.footer1 .footer-content2 .footer-section .links {
+    text-align: center;
+}
+.footer1 .footer-content2 .links ul a {
+    display: block;
+    margin-bottom: 10px;
+
+    color: white;
+    transition: all 3.s;
+}
+.footer1 .footer-content2 .links ul a:hover {
+    color: white;
+    margin-left: 15px;
+    transition: all 3.s;
+}
+
+.footer1 .footer-content2 h1 ,
+.footer1 .footer-content2 h2 {
+    color: white;
+    text-align: left;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.footer1 .footer-bottom2 {
+    background: #343a40;
+    color: #686868 ;
+    height: 50px ;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left :0px ;
+    padding-top: 20px;
+
+}
+ul {
+    list-style-type: circle;
+    margin-left: 130px;
+  }
+  .footer1 .footer-content2 .contact-form2 .contact-input {
+      background: #272727;
+      color: #bebdbd;
+      margin-bottom: 10px;
+      line-height: 1.5rem;
+      padding : .9rem 1.4rem ;
+      width: 400px;
+      margin-bottom: 8px;
+      display: block;
+      border: none;
+  }
+  .footer1 .footer-content2 .contact-form2 .contact-input:focus{
+      background: #1a1a1a;
+  }
+  .footer1 .footer-content2 .contact-form2 .contact-btn {
+      float : left ;
+      color: white;
+  }
+  .btn-big {
+      background: #2ecc71;
+      padding : .5rem 1.3rem ;
+      line-height: 1.3rem;
+      border: none; 
+
+  }
+h3 {
+    color: white;
+    margin-left: 100px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/*Footer2*/
